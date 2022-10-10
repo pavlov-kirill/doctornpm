@@ -7,6 +7,7 @@ import NavItems from './nav-items'
 function Sidebar({location, editOnGitHub}) {
   return (
     <Position
+      id="sidebar"
       position="sticky"
       top={HEADER_HEIGHT}
       height={`calc(100vh - ${HEADER_HEIGHT}px)`}
